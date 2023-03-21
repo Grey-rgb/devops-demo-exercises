@@ -19,6 +19,6 @@ jobs:
       - uses: actions/checkout@v3
       - name: To Show Error DOC17/9
         run: |
-          echo "Should fail at this point ..." ; exit 1
+          echo "Should fail at this point ..."
       - name: Run a one-line script
         run: echo "Continuous Integration"
